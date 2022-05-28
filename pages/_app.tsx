@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Home - Lukas Gäbler</title>
-        <link rel="shortcut icon" href="/logo.svg"  type="image/svg+xml"/>
+        <link rel="shortcut icon" href="/logo.png" />
       </Head>
       <Component {...pageProps} />
     </>
