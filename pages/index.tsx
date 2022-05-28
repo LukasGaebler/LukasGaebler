@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from "../styles/Home.module.scss"
 import {BiChevronDown} from "react-icons/bi"
-import Fade from "react-reveal/Fade";
+import {Fade} from "react-reveal";
 import Head from 'next/head'
 
 const Home: NextPage = () => {
