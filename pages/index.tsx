@@ -25,7 +25,7 @@ const Home: NextPage = () => {
               <div className={styles.linkedInLink}>
                 <div className={styles.linkedInLogoContainer}>
                   <a href="https://www.linkedin.com/in/lukas-gaebler/">
-                    <Image  src={linkedIn} alt="linked in" />
+                    <Image  src={linkedIn} alt="linked in" /> 
                   </a>
                 </div>
               </div>
