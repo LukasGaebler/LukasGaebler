@@ -40,6 +40,9 @@ export default async function Home() {
             Software Engineer / Consultant
           </div>
           <p className="my-6 text-pretty">I build things.</p>
+          <p className="mt-6 text-pretty">Full Stack Web Apps</p>
+          <p className="text-pretty">AI / ML Apps</p>
+          <p className="text-pretty">Mobile Apps</p>
           <h2 className="text-md-plus relative mb-3 mt-8 text-balance font-bold text-black">
             Selection of Clients
           </h2>
