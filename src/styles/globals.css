@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.text-title {
+  font-size: clamp(1.6rem, 6vw, 36px);
+}
+
+.text-md-plus {
+  font-size: 20px;
+}
+
+.top-gradient {
+  background: linear-gradient(
+    180deg,
+    rgb(151, 71, 255, 0.06) 0%,
+    rgba(115, 115, 115, 0) 30%
+  );
+}
