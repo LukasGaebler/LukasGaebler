@@ -1,29 +1,8 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo } from "react";
 import { GitHubCalendar } from "react-github-calendar";
 
 export default function Home() {
-  const currentYear = useMemo(() => new Date().getFullYear(), []);
-
-  const tooltips = useMemo(
-    () => ({
-      activity: {
-        text: (activity: { date: string; count: number }) => {
-          const date = new Date(activity.date).toLocaleDateString("en-US", {
-            weekday: "short",
-            month: "short",
-            day: "numeric",
-            year: "numeric",
-          });
-          return `${activity.count} contribution${activity.count !== 1 ? "s" : ""} on ${date}`;
-        },
-      },
-    }),
-    [],
-  );
-
   return (
     <>
       <div className="mx-auto w-full max-w-xl px-4">
@@ -80,8 +59,7 @@ export default function Home() {
               blockMargin={4}
               fontSize={14}
               showMonthLabels={true}
-              year={currentYear}
-              tooltips={tooltips}
+              year={2026}
             />
           </div>
         </div>
