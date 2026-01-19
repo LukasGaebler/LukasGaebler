@@ -6,13 +6,6 @@ body {
   overscroll-behavior: none;
 }
 
-.text-title {
-  font-size: clamp(1.6rem, 6vw, 36px);
-}
-
-.text-md-plus {
-  font-size: 20px;
-}
 
 .top-gradient {
   background: linear-gradient(
@@ -20,4 +13,17 @@ body {
     rgb(151, 71, 255, 0.06) 0%,
     rgba(115, 115, 115, 0) 30%
   );
+}
+
+/* GitHub Calendar Tooltip Styles */
+.react-activity-calendar__tooltip {
+  width: max-content;
+  max-width: calc(100vw - 20px);
+  padding: 0.5em 0.75em;
+  border-radius: 0.5em;
+  background-color: #1f2937;
+  color: #f3f4f6;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
