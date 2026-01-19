@@ -81,22 +81,7 @@ export default function Home() {
               fontSize={14}
               showMonthLabels={true}
               year={currentYear}
-              tooltips={{
-                activity: {
-                  text: (activity) => {
-                    const date = new Date(activity.date).toLocaleDateString(
-                      "en-US",
-                      {
-                        weekday: "short",
-                        month: "short",
-                        day: "numeric",
-                        year: "numeric",
-                      },
-                    );
-                    return `${activity.count} contribution${activity.count !== 1 ? "s" : ""} on ${date}`;
-                  },
-                },
-              }}
+              tooltips={tooltips}
             />
           </div>
         </div>
